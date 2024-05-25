@@ -1,0 +1,75 @@
+#navbar {
+  align-items: center;
+  border: 1px #dbdcde solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 153px;
+  height: 21px;
+  margin: 24px 40px;
+}
+
+.avatar-container {
+  align-items: center;
+  display: flex;
+  margin: 13px 40px;
+}
+
+.avatar-container h1 {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 6px 10px 6px;
+  color: #a1a5b7;
+}
+
+.avatar-container span {
+  color: #585960;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.avatar {
+  height: 43px;
+  width: 43px;
+}
+
+@media screen and (max-width: 990px) {
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    height: 18px;
+    width: 130px;
+    margin: 15px 30px;
+  }
+  .avatar-container {
+    margin: 9px 35px;
+  }
+  .avatar {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    height: 17px;
+    width: 127px;
+    margin: 10px 25px;
+  }
+  .avatar-container {
+    margin: 4px 30px;
+  }
+  .avatar-container h1 {
+    font-size: 10px;
+  }
+  .avatar-container span {
+    font-size: 10px;
+  }
+  .avatar {
+    height: 30px;
+    width: 30px;
+  }
+}
