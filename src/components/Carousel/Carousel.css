@@ -26,6 +26,8 @@
   color: #000;
   border-radius: 50%;
   font-size: 18px;
+
+  border: none;
 }
 
 .arrow:hover {
@@ -61,6 +63,11 @@
 }
 
 @media screen and (max-width: 700px) {
+  .arrow {
+    width: 1rem;
+    height: 1rem;
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 550px) {

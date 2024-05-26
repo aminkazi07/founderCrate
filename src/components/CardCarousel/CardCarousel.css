@@ -38,15 +38,14 @@
 }
 
 .like-share {
-  width: 11%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.like-share img {
-  height: 60%;
-  width: 35%;
+.like-share svg {
+  cursor: pointer;
+  margin-left: 15px;
 }
 
 .prod-heading {
@@ -58,7 +57,8 @@
 }
 
 .prod-heading-date {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 400;
   padding: 4px 14px;
   display: inline-block;
@@ -73,8 +73,11 @@
   align-items: center;
 }
 
-.prod-btn-container img {
+.prod-btn-container svg {
   margin: 6px 0 6px 8px;
+  color: #50cd89;
+  height: 25px;
+  width: 25px;
 }
 
 .prod-btn {
@@ -83,7 +86,8 @@
   color: #fff;
   border-radius: 4px;
   font-weight: 400px;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 20px;
   border: none;
   margin: 14px 0;
   cursor: pointer;
@@ -108,8 +112,9 @@
 .prod-description {
   color: #585960;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 14px;
+  line-height: 20px;
 }
 
 .prod-description-readmore {
@@ -117,11 +122,13 @@
   text-decoration: underline;
   border: none;
   background-color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 1px;
   font-weight: 400;
   cursor: pointer;
   outline: none;
+
+  line-height: 20px;
 }
 
 .advantages {
@@ -134,13 +141,15 @@
 .advantages-points {
   display: flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 400;
 }
 
-.advantages-points img {
+.advantages-points svg {
   height: 20px;
   width: 20px;
+  color: #4776e6;
 }
 
 .advantages-points span {
@@ -158,19 +167,21 @@
     font-size: 18px;
     margin-top: 10px;
   }
-  .like-share {
-    width: 15%;
+  .like-share svg {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
   }
   .prod-heading-date {
     margin-top: 6px;
-    font-size: 11px;
+    font-size: 12px;
   }
   .prod-btn {
     margin: 5px 0;
     padding: 6px 22px;
-    font-size: 12px;
+    font-size: 13px;
   }
-  .prod-btn-container img {
+  .prod-btn-container svg {
     height: 20px;
     width: 20px;
   }
@@ -206,19 +217,21 @@
     font-size: 13px;
     margin-top: 10px;
   }
-  .like-share {
-    width: 15%;
+  .like-share svg {
+    height: 20px;
+    width: 20px;
   }
+
   .prod-heading-date {
     margin-top: 6px;
     font-size: 7px;
   }
   .prod-btn {
     margin: 5px 0;
-    padding: 6px 22px;
+    padding: 2px 14px;
     font-size: 8px;
   }
-  .prod-btn-container img {
+  .prod-btn-container svg {
     height: 15px;
     width: 15px;
   }
@@ -235,6 +248,10 @@
   .prod-description-readmore {
     font-size: 9px;
   }
+
+  .prod-heading-date {
+    padding: 0 5px;
+  }
   .advantages {
     margin: 6px 0 6px 0;
     font-size: 11px;
@@ -245,7 +262,7 @@
   .advantages-points span {
     margin: 2px 4px 0 0;
   }
-  .advantages-points img {
+  .advantages-points svg {
     height: 15px;
     width: 15px;
   }
@@ -260,6 +277,7 @@
 
   .left-section {
     width: 100%;
+    padding: 0;
   }
   .right-section {
     width: 100%;
@@ -271,5 +289,14 @@
   }
   .badge h1 {
     font-size: 12px;
+  }
+  .like-share svg {
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+  }
+  .prod-btn-container svg {
+    height: 15px;
+    width: 15px;
   }
 }

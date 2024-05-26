@@ -5,6 +5,7 @@ import "./Cards.css";
 
 export default function Cards() {
   const cardArr = [Cloud, Sales, Productivity, Web3];
+
   return (
     <>
       <div className="cards-section">
@@ -13,16 +14,8 @@ export default function Cards() {
           {cardArr.map((el, i) => {
             return (
               <>
-                <SingleCard
-                  key={i}
-                  imgLink={el}
-                  badge={el.slice(16, el.length - 4)}
-                />
-                <SingleCard
-                  key={i}
-                  imgLink={el}
-                  badge={el.slice(16, el.length - 4)}
-                />
+                <SingleCard key={i} imgLink={el} />
+                <SingleCard key={i} imgLink={el} />
               </>
             );
           })}
